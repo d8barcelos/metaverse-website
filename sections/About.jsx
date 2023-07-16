@@ -33,6 +33,7 @@ const About = () => (
         dreams into reality. Let's explore the madness of the metaverse by
         scrolling down
       </motion.p>
+      <motion.img alt="." className="w-[18px] h-[28px] object-contain mt-[28px]" src="/arrow-down.svg" variants={fadeIn('up', 'tween', 0.3, 1)} />
     </motion.div>
   </section>
 );
